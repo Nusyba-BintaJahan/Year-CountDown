@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    text-align: center;
+    background-color: #d6c9d8;
+}
+
+h1  {
+    font-family: 'Alex Brush', cursive;
+    font-size: 150px;
+    text-shadow: 2px 2px 2px #58055f;
+    letter-spacing: 10px;
+    color: #3d3e3e;
+    
+}
+.countdown {
+    width: 900px;
+    padding: 20px;
+    box-shadow: 1px 1px 1px 2px #58055f;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: content-box;
+}
+
+.countdown .time {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #3d3e3e;
+    float: left;
+    margin-right: 25px;
+    
+}
+.countdown .time h3 {
+    font-family: 'Alex Brush', cursive;
+    font-size: 60px;
+    text-align: center;
+}
+.countdown .time p {
+    font-family: 'Alex Brush', cursive;
+    font-size: 25px;
+    color: #3d3e3e;
+}
